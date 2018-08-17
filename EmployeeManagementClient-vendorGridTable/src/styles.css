@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~ag-grid/dist/styles/ag-grid.css";
+@import "~ag-grid/dist/styles/ag-theme-balham.css";
+.ag-row-hover {
+    background-color: #a6f3d9 !important;
+}
+.ag-column-hover {
+    background-color: #a6f3d9;
+}
+.ag-root{
+    font-size:14px;
+    border: solid 2px rgb(58, 166, 255);
+}
+.ag-header {
+    background-color:rgb(58, 166, 255);
+    text-align: center;
+}
+
+.ag-cell{
+    text-align: center;
+}
+.ag-row-even{
+    background-color:rgb(195, 216, 247);
+}
